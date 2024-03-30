@@ -1,0 +1,5 @@
+ls
+vi docker.sh
+sh docker.sh
+docker --version
+ansible demo -m copy -a "src=/home/ansible/devops.txt(masternode) dest=/home/ansible(workernode1)"
