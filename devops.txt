@@ -1,0 +1,36 @@
+Ansible is an open-source automation tool used for managing and configuring IT infrastructure.
+
+Key Features:
+
+Agentless: No need to install agents on remote hosts.
+
+Simple YAML Syntax: Easy-to-read configuration files.
+
+Idempotent: Tasks can be run multiple times without adverse effects.
+
+Modules: Built-in modules for various automation tasks.
+
+Playbooks: YAML files defining tasks, roles, and workflows.
+
+Inventory: Defines managed hosts or groups.
+
+Roles: Modular units for organizing automation code.
+
+
+Use Cases:
+Configuration Management
+Application Deployment
+Provisioning
+Orchestration
+CI/CD Automation
+
+Getting Started:
+
+Install Ansible on a control node.
+Define inventory (hosts) listing target hosts.
+Write playbooks (*.yml files) for tasks and workflows.
+Use Ansible commands (ansible, ansible-playbook) to execute playbooks.
+Documentation: Ansible Documentation
+
+Ansible simplifies automation tasks, promotes consistency, and enhances efficiency in managing IT infrastructure.
+
