@@ -1,0 +1,15 @@
+ansible demo -m ping
+ls -a
+ssh-keygen
+ls
+cd .ssh/
+ls
+ssh-copy-id ansible@privateIPworkernode1
+exit
+cd ..
+ls
+cd .ssh/
+ssh-copy-id ansible@privateIPworkernode2
+ansible demo -m ping
+ls
+ansible demo -m copy -a "src=/home/ansible/devops.txt dest=/home/ansible"
